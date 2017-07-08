@@ -1,0 +1,105 @@
+
+    
+   <!--   <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_root"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+        
+         <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:textSize="140sp"/>
+    
+    <Button
+        android:id="@+id/button_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_gravity="center_horizontal"
+        android:textSize="17sp"
+        android:textColor="@color/textcolor"
+        android:textStyle="bold"
+        android:background="@android:color/transparent"
+        android:text="@string/gallery"
+        android:shadowColor="@color/shadow"
+        android:shadowRadius="2"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:onClick="onClickPickPhoto" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:textSize="150sp"/>
+           
+           <ImageView
+        android:id="@+id/info"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/daemoninfo"
+        android:layout_marginLeft="315dp"
+        android:layout_marginStart="315dp"
+        android:layout_marginTop="110dp"
+        
+        android:onClick="onClickWebpage"/>
+           
+            
+           
+         <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:textSize="22sp"/>
+       
+</LinearLayout>-->
+
+    
+ <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_root"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+        
+
+           <Button
+               android:id="@+id/button_text"
+               style="?android:attr/borderlessButtonStyle"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentTop="true"
+               android:layout_centerHorizontal="true"
+               android:layout_marginTop="176dp"
+               android:background="@android:color/transparent"
+               android:onClick="onClickPickPhoto"
+               android:shadowColor="@color/shadow"
+               android:shadowDx="2"
+               android:shadowDy="2"
+               android:shadowRadius="2"
+               android:text="@string/gallery"
+               android:textColor="@color/textcolor"
+               android:textSize="17sp"
+               android:textStyle="bold" />
+
+           <ImageView
+               android:id="@+id/info"
+               android:layout_width="24dp"
+               android:layout_height="24dp"
+               android:layout_alignParentBottom="true"
+               android:layout_alignParentRight="true"
+               android:layout_marginBottom="25dp"
+               android:layout_marginLeft="15dp"
+               android:layout_marginStart="200dp"
+               android:layout_toRightOf="@+id/button_text"
+               android:onClick="onClickWebpage"
+               android:src="@drawable/daemoninfo" />
+       
+</RelativeLayout>
+
+    
+    

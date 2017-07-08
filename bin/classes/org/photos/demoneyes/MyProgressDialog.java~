@@ -1,0 +1,20 @@
+package org.photos.demoneyes;
+
+import android.app.ProgressDialog;
+import android.content.Context;
+public class MyProgressDialog extends ProgressDialog{
+	Context context;
+        
+	  public MyProgressDialog(Context context) {
+        super(context);
+        this.context = context;
+    }
+
+    @Override
+    public void onBackPressed() {
+        /** dismiss the progress bar and clean up here **/
+        finish();
+        //super.onBackPressed();
+
+    }
+}

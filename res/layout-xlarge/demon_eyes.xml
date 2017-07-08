@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_root"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+        
+         
+
+           <Button
+               android:id="@+id/button_text"
+               style="?android:attr/borderlessButtonStyle"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_alignParentTop="true"
+               android:layout_centerHorizontal="true"
+               android:layout_marginTop="300dp"
+               android:background="@android:color/transparent"
+               android:onClick="onClickPickPhoto"
+               android:shadowColor="@color/shadow"
+               android:shadowDx="2"
+               android:shadowDy="2"
+               android:shadowRadius="2"
+               android:text="@string/gallery"
+               android:textColor="@color/textcolor"
+               android:textSize="21sp"
+               android:textStyle="bold" />
+
+           <ImageView
+               android:id="@+id/info"
+               android:layout_width="48dp"
+               android:layout_height="48dp"
+               android:layout_alignParentBottom="true"
+               android:layout_alignParentRight="true"
+               android:layout_marginBottom="75dp"
+               android:layout_marginLeft="15dp"
+               android:layout_marginStart="200dp"
+               android:layout_toRightOf="@+id/button_text"
+               android:onClick="onClickWebpage"
+               android:src="@drawable/daemoninfo" />
+       
+</RelativeLayout>

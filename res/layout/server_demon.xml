@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_root"
+    android:orientation="vertical"
+    android:background="@drawable/background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+         <!--   <ProgressDialog
+      android:id="@+id/progressDialog"
+      style="?android:attr/progressDialogStyleLarge"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"/>
+        -->
+         
+         <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        
+        />
+         
+       
+</LinearLayout>
